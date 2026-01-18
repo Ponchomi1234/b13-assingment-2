@@ -1,0 +1,197 @@
+@import "tailwindcss";
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+/* nav-style */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #412567;
+}
+.nav-titel{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+    
+}
+.web{
+background:linear-gradient(
+    90deg,
+        #F7E93F,
+        #FB09B4,
+        #9100F8
+) ;
+-webkit-background-clip: text;
+color: transparent;
+}
+.nav-list{
+    display: flex;
+    color: #FFFFFF;
+    gap: 32px;
+}
+.nav-button{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 300;
+    background:linear-gradient(
+        90deg,
+        #F7E93F,
+        #FB09B4,
+        #9100F8
+
+    );
+    width: 130px;
+    height: 35px;
+    border-radius: 15px;
+}
+/* banner-style */
+.banner-section{
+    background-image: url(../assets/hero-bg.png);
+    text-align: center;
+    padding-left: 525px;
+    padding-right: 525px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    
+}
+    
+/* .banner-div{
+    width: 550px;
+    margin-left: 525px;
+    margin-right: 525px;
+    
+    
+} */
+.img-div{
+    width: 350px;
+    
+}
+.banner-img{
+    width: 100px;
+    margin-left: 100px;
+    margin-top: -260px;
+    margin-bottom: 50px;
+}
+.banner-cicle{
+   
+    /* padding-left: 620px;
+    padding-right: 620px;
+    padding-top: 100px; */
+}
+
+.banner-content{
+    color: white;
+    margin-top: 150px;
+   
+    
+}
+.banner-titel{
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.banner-pera{
+    font-size: 1rem;
+    font-weight: 200;
+    
+}
+.banner-btn-one{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 300;
+    background:linear-gradient(
+        90deg,
+        #F7E93F,
+        #FB09B4,
+        #9100F8
+
+    );
+    width: 200px;
+    height: 35px;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+.banner-btn-two{
+   
+    border: 1px solid #00FF88;
+    border-radius: 12px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 2px;
+    font-weight: 200;
+    
+    
+    
+}
+/* About section  */
+.about-section{
+     background-color: #1A0B2E;
+}
+.about-div{
+    text-align: center;
+    
+}
+.about-titel{
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    font-weight: 700;
+
+}
+.about-pera{
+    font-weight: 200;
+    color: #FFFFFF;
+    
+}
+.card{
+    
+    text-align: center;
+    
+}
+.about-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 50px;
+}
+.card-titel{
+    font-weight: 700;
+    font-size: 3rem;
+    color: #00FF88;
+}
+.card-pera{
+    font-weight: 200;
+    color: #FFFFFF;
+}
+
+
+
+/* responsive for small device */
+@media screen and ( max-width:576px){
+    /* nav-style */
+   .nav-list{
+   display: none;
+   }
+   .nav-button{
+    /* display: none; */
+    color: transparent;
+    border-radius: 1px;
+    width: 27px;
+    height: 24px;
+    
+    background-image: url(../assets/hamburger-menu.png);
+   }
+   /* banner-style */
+   
+   /* about section */
+   .about-card{
+    grid-template-columns:repeat(2,1fr) ;
+   }
+
+
+   
+}

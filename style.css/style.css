@@ -229,6 +229,9 @@ color: transparent;
 
 }
 /* feature -card */
+main{
+    background-color: #1A0B2E;
+}
 .feature-section{
     background-color: #1A0B2E;
 }
@@ -279,9 +282,76 @@ color: transparent;
     padding-top: 12px;
     padding-bottom: 12px;
 }
+/* host ralted style */
+.host-titel{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 30px;
 
+}
+.host-conainer{
+    
+    background-color: #351165;
+    border-radius: 12px;
+    width: 1000px;
+    margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   column-gap: 10px;
+}
 
-
+.host-icon{
+    display: flex;
+    gap: 10px;
+}
+.img-host{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+.host-name{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.host-content p{
+    font-weight: 200;
+    color: #FFFFFF;
+}
+.host-content{
+    padding: 20px;
+}
+/* footer style */
+.footer-div{
+    background-image: url(../assets/footer-bg.png);
+   
+}
+.footer-titel{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 100px;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-bottom: 100px;
+    width: 550px;
+    margin: 0 auto;
+   
+}
+.footer-img{
+    
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-img h2{
+    color: #FFFFFF;
+}
 /* responsive for small device */
 @media screen and ( max-width:576px){
     /* nav-style */
@@ -300,7 +370,7 @@ color: transparent;
    /* banner-style */
    
    /* about section */
-   .about-card{
+   .about-card , .footer-container{
     grid-template-columns:repeat(2,1fr) ;
    }
    .layout-section{
@@ -313,7 +383,18 @@ color: transparent;
    align-items: center;
    gap: 20px;
    }
+.host-conainer{
+    grid-template-columns: repeat(1,1fr);
+    flex-direction: column-reverse;
+    width: 100%;
+}
+.host-icon{
+  justify-content: center;
+}
 
+.footer-container{
+    width: 100%;
+}
 
    
 }

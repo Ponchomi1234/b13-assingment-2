@@ -241,7 +241,7 @@ color: transparent;
 
 }
 .feature-card{
-    width: 380px;
+    width: 300px;
     border-radius: 12px;
     background-color:#250D44 ;
     
@@ -249,15 +249,14 @@ color: transparent;
 .feature-card-div{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin: 0 auto;
-    padding-left: 100px;
-    padding-right: 100px;
+  column-gap: 10px;
+    padding-left: 50px;
     padding-top: 100px;
     padding-bottom: 100px;
-    gap: 30px;
+    /* gap: 20px; */
 }
 .you-tube{
-    width: 380px;
+    width: 300px;
     border-radius: 12px;
 }
 .feature-card h1{
@@ -307,6 +306,12 @@ color: transparent;
    .layout-section{
     grid-template-columns: repeat(1 , 1fr);
     gap: 10px;
+   }
+   /* video section */
+   .feature-card-div{
+    grid-template-columns: repeat(1,1fr);
+   align-items: center;
+   gap: 20px;
    }
 
 

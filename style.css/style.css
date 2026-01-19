@@ -352,6 +352,12 @@ main{
 .footer-img h2{
     color: #FFFFFF;
 }
+.copyright{
+    color: #FFFFFF;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 50px;
+}
 /* responsive for small device */
 @media screen and ( max-width:576px){
     /* nav-style */
@@ -395,6 +401,7 @@ main{
 .footer-container{
     width: 100%;
 }
+
 
    
 }

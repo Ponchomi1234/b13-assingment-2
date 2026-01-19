@@ -228,7 +228,58 @@ color: transparent;
     padding-top: 50px;
 
 }
+/* feature -card */
+.feature-section{
+    background-color: #1A0B2E;
+}
+.episode-titel{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 15px;
 
+}
+.feature-card{
+    width: 380px;
+    border-radius: 12px;
+    background-color:#250D44 ;
+    
+}
+.feature-card-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 30px;
+}
+.you-tube{
+    width: 380px;
+    border-radius: 12px;
+}
+.feature-card h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-left: 20px;
+    
+}
+.feature-card p{
+    font-size: 1rem;
+    font-weight: 200;
+    color: #FFFFFF;
+    padding-left: 20px;
+} 
+.feature-card h4{
+    color: #00FF88;
+    font-weight: 200;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
 
 
 
@@ -252,6 +303,10 @@ color: transparent;
    /* about section */
    .about-card{
     grid-template-columns:repeat(2,1fr) ;
+   }
+   .layout-section{
+    grid-template-columns: repeat(1 , 1fr);
+    gap: 10px;
    }
 
 
